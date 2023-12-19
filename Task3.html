@@ -1,0 +1,55 @@
+<!-- Employee Prgm-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body align="center" bgcolor="lightgray">
+    <h1><b>Employement Payroll Form </b></h1>
+    <form name="eform" action="./Action1.html" method="get">
+        <fieldset>
+        <table align="center">
+            <tr>
+                <td><h3>Employee Name : </h3> </td> <td><input type="text" name="ename"> </td>
+            </tr>
+            <tr>
+                <td> <h3>Employee ID :</h3></td> <td> <input type="text" name="id" required></td>
+            </tr>
+            <tr>
+                <td> <h3>Salary : </h3></td> <td> <input type="tel"  name="salary"></td>
+            </tr>
+            <tr>
+                <td> <h3>Department: </h3></td> <td> <select name="Department">
+                    <option ></option>
+                      <option value="maths">Maths</option>
+                      <option value="Electronics">Electronics</option>
+                      <option value="Statistics">Statistics</option>
+                      <option value="Computers">Computers</option>
+                      <option value="English">English</option>
+                      <option value="Chemistry">chemistry</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2"><h3>Employement Type:</h3></td> <td> <input type="radio" name="type">Full-Time</td>
+            </tr> <td><input type="radio" name="type">Part-Time </td>
+            
+            <tr>
+                    <td><h3>Bank A/C No : </h3></td> <td> <input type="text" name="Num" required></td>
+            </tr>
+            <tr>
+                    <td> <h3>Bank Name : </h3></td> <td> <input type="text" name="bname" required></td>
+            </tr>
+            <tr>
+                    <td> <h3>Tax ID :</h3></td> <td> <input type="text" name="tid" required></td>
+            </tr>
+            
+
+        </table>
+        <button style="width: 120px; height: 40px; background-color: rgba(21, 110, 242, 0.87); color:rgb(242, 244, 246)"> <b> Submit </b></button>
+        </fieldset>  
+            </form>
+</body>
+</html>
